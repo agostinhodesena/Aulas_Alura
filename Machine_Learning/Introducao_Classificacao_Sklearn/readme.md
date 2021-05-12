@@ -7,11 +7,12 @@
 - Uso do pacote SKLearn para separar base em dados de treino e teste, fazer previsões e verificar o ajustamento do modelo. <br>
 - Reescalonamento das features. <br>
 - Criação de uma curva de decisão.
+- Modelo de Decision Tree
 
 #### Pacotes e funções utilizadas:
 - Nativas: rename, value_counts, shape, reshape; <br>
 - Pandas: read_csv; <br>
-- SKLearn: LinearSVC, SVC, predict, accurracy_score, train_test_split, StandardScaler; <br>
+- SKLearn: LinearSVC, SVC, predict, accurracy_score, train_test_split, StandardScaler; DecisionTree <br>
 - Seaborn: Scatterplot, Relplot; <br>
 - Numpy: random.seed, ones, Arange, Meshgrid, c_ (concatenate); <br>
 - Matplotlib: contourf, scatter
